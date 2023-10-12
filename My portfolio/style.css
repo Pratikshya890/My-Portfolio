@@ -67,7 +67,7 @@ body {
 }
 
 .home-content h3 {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -124,7 +124,9 @@ body {
     color: #081b29;
     box-shadow: 0 0 20px #0ef;
 }
-
+html{
+    scroll-behavior: smooth;
+   }
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
@@ -432,7 +434,7 @@ font-weight: 600;
 
 @keyframes slideLeft {
     0% {
-        transform: translateX(-100px);
+        transform: translateX(100px);
         opacity: 0;
     }
 
